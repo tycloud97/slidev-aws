@@ -7,8 +7,10 @@
   },
   "dependencies": {
     "@slidev/cli": "^0.22.7",
+    "@slidev/theme-apple-basic": "^0.19.0",
     "@slidev/theme-default": "*",
-    "@slidev/theme-seriph": "*"
+    "@slidev/theme-seriph": "*",
+    "@slidev/theme-shibainu": "^0.0.2"
   },
   "name": "slidev-aws"
 }

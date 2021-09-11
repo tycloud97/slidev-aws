@@ -159,6 +159,16 @@
     "@slidev/types" "0.22.7"
     js-yaml "^4.1.0"
 
+"@slidev/theme-apple-basic@^0.19.0":
+  version "0.19.0"
+  resolved "https://registry.yarnpkg.com/@slidev/theme-apple-basic/-/theme-apple-basic-0.19.0.tgz#feace7a62d5bf80c11dce43b904e2788e6397f98"
+  integrity sha512-uPNwjZ80FISka+3pOHEFSWkAEa77BlEEWbYwIG5J7+BrjIRRLoUC1YJ47pLA4Tp3SMhAc6qhzB8Sy66HL4+QPg==
+  dependencies:
+    "@slidev/types" "^0.19.3"
+    codemirror-theme-vars "^0.1.1"
+    prism-theme-vars "^0.2.2"
+    theme-vitesse "^0.1.11"
+
 "@slidev/theme-default@*":
   version "0.19.1"
   resolved "https://registry.yarnpkg.com/@slidev/theme-default/-/theme-default-0.19.1.tgz#2862091deca5bab84d148f92f93d9f603edc0527"
@@ -179,12 +189,22 @@
     prism-theme-vars "^0.2.2"
     theme-vitesse "^0.1.11"
 
-"@slidev/types@0.22.7":
+"@slidev/theme-shibainu@^0.0.2":
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/@slidev/theme-shibainu/-/theme-shibainu-0.0.2.tgz#3ba55d8fe5e82c4d431fae57d5133168ee492fa1"
+  integrity sha512-iLGt1UfX9tQMfPQclLMQRNM2DPasWksP/jGr7bKu5NdoPBNHSzYf086A4h46HiNlWOloEnxtAvG1VTdMCKfpIg==
+  dependencies:
+    "@slidev/types" "^0.22.7"
+    codemirror-theme-vars "^0.1.1"
+    prism-theme-vars "^0.2.2"
+    theme-vitesse "^0.1.12"
+
+"@slidev/types@0.22.7", "@slidev/types@^0.22.7":
   version "0.22.7"
   resolved "https://registry.yarnpkg.com/@slidev/types/-/types-0.22.7.tgz#abe1c81fedd5db1475428832f65253f95722a6d8"
   integrity sha512-mCVKQbcGTv6d6n9aHpYNp5U04HF+FMbpY083vqpJ6Folc805BB1Am02eubaW0J6nM+dSOu2dDgPY+kIjs75sAQ==
 
-"@slidev/types@^0.19.6":
+"@slidev/types@^0.19.3", "@slidev/types@^0.19.6":
   version "0.19.9"
   resolved "https://registry.yarnpkg.com/@slidev/types/-/types-0.19.9.tgz#ed29b8f92b5bf501cbeb83f597e0a7e13ae9b580"
   integrity sha512-hpQeTIUbCwTFOw5m1h5TuJkwJhpZ77VUIaI4PDUboB1Unk9jaNl9Ok0dvLMWN9vlsKmqeVxhkonXTWNKPUBHjQ==
@@ -2087,7 +2107,7 @@ terser@^4.0.0:
     source-map "~0.6.1"
     source-map-support "~0.5.12"
 
-theme-vitesse@^0.1.11:
+theme-vitesse@^0.1.11, theme-vitesse@^0.1.12:
   version "0.1.12"
   resolved "https://registry.yarnpkg.com/theme-vitesse/-/theme-vitesse-0.1.12.tgz#0b30c2c2a83c2e4bacb603238c508ce9154e2b7d"
   integrity sha512-lJLDcQm9/It6Aj+dr6FUHx8Ppy7COi53Ui2iSP5B4DJxNM+spaUPIPIOileSM8kZn60KsfLsV6eQzoknuQa7/A==
