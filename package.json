@@ -10,7 +10,8 @@
     "@slidev/theme-apple-basic": "^0.19.0",
     "@slidev/theme-default": "*",
     "@slidev/theme-seriph": "*",
-    "@slidev/theme-shibainu": "^0.0.2"
+    "@slidev/theme-shibainu": "^0.0.2",
+    "playwright-chromium": "^1.15.0"
   },
   "name": "slidev-aws"
 }
